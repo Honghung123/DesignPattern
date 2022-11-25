@@ -30,7 +30,9 @@ public class BankDetails {
     }
 
     public void getCondition(String message) {
-        System.out.println("you passed " + message);
+        System.out.println(
+                "you passed " + message + " HNam: " + getAccHolderName() + " Account: " + getAccNumber() + " bankName: "
+        + getBankName());
     }
     
     public void getOverride( ) {

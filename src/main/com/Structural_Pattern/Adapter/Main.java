@@ -6,8 +6,8 @@ public class Main {
         targetInterface.giveBankDetails();
         String message = targetInterface.getCreditCard();
         System.out.println(message);
-        BankDetails bankDetails = new BankDetails();
-        VisaCard visa = new BankUser(bankDetails); 
+        // BankDetails bankDetails = new BankDetails();
+        VisaCard visa = new BankUser(((BankCustomer)targetInterface)); 
         visa.getCondition(message);
     }
 }

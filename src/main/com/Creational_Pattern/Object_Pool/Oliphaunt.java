@@ -5,12 +5,13 @@ public class Oliphaunt {
     private static int counter = 1;
 
     private final int id;
+ 
 
     /**
      * Constructor
      */
     public Oliphaunt() {
-        id = counter++;
+        id = counter++; 
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -18,10 +19,14 @@ public class Oliphaunt {
         }
     }
 
-    public int getId() {
+    public int getId() { 
         return id;
     }
-
+    
+    public static void getCounter() {
+        System.out.println("Counters: " + counter);
+    }
+    
     @Override
     public String toString() {
         return String.format("Oliphaunt id=%d", id);

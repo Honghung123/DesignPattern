@@ -1,9 +1,9 @@
 package main.com.Structural_Pattern.Adapter;
 
 public class BankUser implements VisaCard {
-    BankDetails bankDetails;
-    public BankUser(BankDetails bankDetails) {
-        this.bankDetails = bankDetails;
+    public BankCustomer bankCustomer;
+    public BankUser(BankCustomer BankCustomer) {
+        this.bankCustomer = BankCustomer;
     } 
     @Override
     public void getCondition(String result) {
@@ -13,6 +13,6 @@ public class BankUser implements VisaCard {
         } else {
             message = "Sorry, cannot get account";
         }
-        bankDetails.getCondition(message);
+        bankCustomer.getCondition(message);
     } 
 }
