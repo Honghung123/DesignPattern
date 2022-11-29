@@ -1,11 +1,11 @@
-package main.com.Creational_Pattern.Singleton_Pattern;
+package main.com.Creational_Pattern.Singleton;
 
-public class Singleton {
+public class Main {
 
     public static void main(String[] args) {
         System.out.println("--- Singleton Pattern ---");
-        Main single1 = Main.getInstance( );
-        Main single2 = Main.getInstance( );
+        Singleton single1 = Singleton.getInstance( );
+        Singleton single2 = Singleton.getInstance( );
         if (single1.equals(single2)) {
             System.out.println("Unique Instance");
         }

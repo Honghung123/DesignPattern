@@ -1,5 +1,5 @@
-package main.com.Creational_Pattern.Abstract_Factory_Pattern.implementss;
-import main.com.Creational_Pattern.Abstract_Factory_Pattern.Animal; 
+package main.com.Creational_Pattern.Abstract_Factory.implementss;
+import main.com.Creational_Pattern.Abstract_Factory.Animal; 
 
 
 public class Cat implements Animal{

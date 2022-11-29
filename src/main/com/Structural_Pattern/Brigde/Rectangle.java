@@ -3,7 +3,7 @@ package main.com.Structural_Pattern.Brigde;
 public class Rectangle implements Sharp {
     private Color color;
 
-    Rectangle(Color color) {
+    public Rectangle(Color color) {
         this.color = color;
     }
 

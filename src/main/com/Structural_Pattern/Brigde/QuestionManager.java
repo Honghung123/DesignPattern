@@ -5,6 +5,7 @@ public class QuestionManager {
     public String catalog;
 
     public QuestionManager(String catalog) {
+        q = new JavaQuestions();
         this.catalog = catalog;
     }
 

@@ -1,4 +1,4 @@
-package main.com.Creational_Pattern.Builder_Pattern;
+package main.com.Creational_Pattern.Builder;
 
 public class BankAccount {
 

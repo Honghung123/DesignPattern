@@ -1,8 +1,8 @@
-package main.com.Creational_Pattern.Abstract_Factory_Pattern;
+package main.com.Creational_Pattern.Abstract_Factory;
 
-import main.com.Creational_Pattern.Abstract_Factory_Pattern.implementss.Red;
+import main.com.Creational_Pattern.Abstract_Factory.implementss.Red;
 
-public class ColorFactory implements AbtractFactory<Color> {
+public class ColorFactory implements AbstractFactory<Color> {
     @Override
     public Color create(String entity) {
         switch (entity) {

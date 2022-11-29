@@ -38,7 +38,7 @@ public class Main {
         oliphaunt4.getId();
         System.out.println(pool);
         Oliphaunt oliphaunt5 = pool.checkOut();
-        System.out.println("Is Oliphaunt5 is Oliphaunt2:  " + oliphaunt2.equals(oliphaunt5));
+        System.out.println("Is Oliphaunt5 is Oliphaunt:  " + oliphaunt.equals(oliphaunt5));
         oliphaunt5.getId();
         System.out.println(pool);
     }

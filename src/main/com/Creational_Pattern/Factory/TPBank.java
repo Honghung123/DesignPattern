@@ -1,4 +1,4 @@
-package main.com.Creational_Pattern.Factional_Pattern;
+package main.com.Creational_Pattern.Factory;
 
 public class TPBank implements Bank{
     @Override

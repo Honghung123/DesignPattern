@@ -2,8 +2,7 @@ package main.com.Structural_Pattern.Brigde;
 
 public class Main {
     public static void main(String[] args) {
-        QuestionFormat questions = new QuestionFormat("Java Programming Language");
-        questions.q = new JavaQuestions();
+        QuestionFormat questions = new QuestionFormat("Java Programming Language"); 
         questions.delete("What is class? ");
         questions.display();
         questions.newOne("What is inheritance? "); 

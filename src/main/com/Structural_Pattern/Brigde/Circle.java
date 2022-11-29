@@ -10,6 +10,6 @@ public class Circle implements Sharp {
     @Override
     public void getSharp() {
         color.getColor();
-        System.out.println("Circle");
+        System.out.println("Sharp: Circle");
     }
 }

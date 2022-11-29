@@ -23,20 +23,20 @@ public class Main {
             switch (choice) {
                 case 1: {
                     sk.iphoneSale();
-                }
                     break;
+                }
                 case 2: {
                     sk.samsungSale();
-                }
                     break;
+                }
                 case 3: {
                     sk.xiaomiSale();
-                }
                     break;
+                }
                 default: {
                     System.out.println("Nothing You purchased");
-                }
                     return;
+                }
             }
 
         } while (choice != 4);

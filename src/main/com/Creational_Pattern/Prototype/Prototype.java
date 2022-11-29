@@ -1,4 +1,4 @@
-package main.com.Creational_Pattern.Prototype_Pattern;
+package main.com.Creational_Pattern.Prototype;
 
 public interface Prototype {
     public Prototype getClone();

@@ -10,6 +10,6 @@ public class Main {
         manager1.add(emp1);
         manager1.add(emp2);
         manager1.add(emp3);
-        manager1.print();
+        manager1.print(); 
     }
 }
