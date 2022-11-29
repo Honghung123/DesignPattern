@@ -5,11 +5,11 @@ public class CollectionOfNames implements Container {
      "Nguyen Hue", "Hoai Thuong" };
 
     @Override
-    public Iterator getIterator() {
+    public Iterators getIterators() {
         return new CollectionofNamesIterate();
     }
 
-    private class CollectionofNamesIterate implements Iterator {
+    private class CollectionofNamesIterate implements Iterators {
         private int i;
 
         @Override

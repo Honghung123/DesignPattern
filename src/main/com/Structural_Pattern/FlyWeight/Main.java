@@ -12,7 +12,7 @@ public class Main {
         createSoldier(5, "Yuri", 1);
         createSoldier(5, "Spy", 1);
         createSoldier(3, "Spy", 3);
-        createSoldier(2, "Yuri", 2);
+        createSoldier(2, "Akane", 2);
         long endTime = System.currentTimeMillis();
         System.out.println("---");
         System.out.println("Total soldiers made : " + soldiers.size());
@@ -22,9 +22,9 @@ public class Main {
 
     private static void createSoldier(int numberOfSoldier, String soldierName, int numberOfStar) {
         for (int i = 1; i <= numberOfSoldier; i++) {
-            Context star = new Context("Soldier" + (soldiers.size() + 1), numberOfStar);
+            Context context = new Context("Soldier" + (soldiers.size() + 1), numberOfStar);
             ISolider soldier = SoliderFactory.createSolider(soldierName);
-            soldier.promote(star);
+            soldier.promote(context);
             soldiers.add(soldier);
         }
     }

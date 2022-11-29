@@ -3,8 +3,8 @@ package main.com.Structural_Pattern.Proxy;
 public class ProxyInternetAccess implements OfficeInternetAccess{
     private String employeeName;
     private boolean isAllow;
-
     private RealInternetAccess realAccess;
+
     public ProxyInternetAccess(){}
 
     public ProxyInternetAccess(String employeeName, boolean isAllow) {

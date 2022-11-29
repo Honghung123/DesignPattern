@@ -15,5 +15,9 @@ public class Main {
         Member2 u2 = new Member2(chat);
         u2.setname("Soono Jaiswal");
         u2.sendMessage("I am Fine ! Yeosaue tell?");
+        Member2 u3 = new Member2(chat);
+        u3.setname("Hong Hung");
+        u3.sendMessage("Keep silent please!");
+        u2.sendMessage("Sorry");
     }
 }
